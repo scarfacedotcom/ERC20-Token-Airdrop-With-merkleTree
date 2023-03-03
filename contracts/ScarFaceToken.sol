@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract TimidanToken is ERC20("ScarFaceToken", "SFT") {
+contract ScarFaceToken is ERC20("ScarFaceToken", "SFT") {
     address public owner;
     uint8 public _decimals;
     uint256 public _totalSupply;
